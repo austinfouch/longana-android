@@ -16,6 +16,10 @@ public class NewGame extends AppCompatActivity {
     }
 
     public void newTourney(View view) {
+
+        // Tournament tourney();
+        // pass tourney into intent
+
         Intent activity = new Intent(NewGame.this, Tournament.class);
         EditText tourneyScore =  (EditText)findViewById(R.id.input_tourneyScore);
         String text = tourneyScore.getText().toString();
